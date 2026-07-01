@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#33E6D4"/>
+      <stop offset="100%" stop-color="#18B8A8"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity=".25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect
+      x="18"
+      y="18"
+      width="476"
+      height="476"
+      rx="72"
+      fill="#111318"/>
+
+  <g filter="url(#shadow)">
+
+    <!-- Letter A -->
+    <path
+      fill="#ffffff"
+      d="
+      M110 390
+      L215 120
+      L320 390
+      L278 390
+      L250 320
+      L180 320
+      L152 390
+      Z
+
+      M196 275
+      L234 178
+      L272 275
+      Z"/>
+
+    <!-- Diagonal Accent -->
+    <path
+      fill="url(#teal)"
+      d="
+      M250 410
+      L360 115
+      L382 115
+      L272 410
+      Z"/>
+
+    <!-- Letter B -->
+    <path
+      fill="url(#teal)"
+      d="
+      M285 165
+      H360
+      C412 165 435 188 435 225
+      C435 252 420 271 396 280
+      C425 288 446 310 446 346
+      C446 389 414 410 356 410
+      H285
+      Z
+
+      M326 205
+      H353
+      C372 205 385 215 385 231
+      C385 247 372 257 353 257
+      H326
+      Z
+
+      M326 294
+      H360
+      C385 294 398 307 398 327
+      C398 347 385 360 360 360
+      H326
+      Z"/>
+
+  </g>
+
+</svg>
