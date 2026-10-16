@@ -4,9 +4,11 @@ import { AnimatedBorderButton } from "../Components/AnimatedBorderButton";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const skills = [
-  "React",
-  "NodeJs",
+  "React.js",
+  "Node.js",
+  "Next.js",
   "Javascript",
+  "Typescript",
   "MySQL",
   "Python",
   "TensorFlow",
@@ -59,7 +61,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse " />
-                Software Engineer ● React Expert
+                Software Developer ● React.js | Next.js | TypeScript
               </span>
             </div>
 
